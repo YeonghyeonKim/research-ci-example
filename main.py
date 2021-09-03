@@ -1,12 +1,8 @@
 def helloworld(a):
-    print(f"hello world! {a}")  # ASDASD
+    msg = "hello world!" + a
+    print(msg) 
+    return msg
+
+
 if __name__ == "__main__":
     helloworld("alalal")
-
-
-
-
-
-
-
-
